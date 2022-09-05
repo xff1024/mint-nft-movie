@@ -1,0 +1,29 @@
+.movie-page {
+    padding-top: 50px;
+    width: 1500px;
+    margin: 0 auto;
+    min-height: 200px;
+    &-title {
+        font-size: 30px;
+        line-height: 1.5;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .movie-lists {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 60px 32px;
+        .movie-item {
+            width: 300px;
+            &-title {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 1.5;
+                margin: 10px 0;
+            }
+            .movie-img-hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

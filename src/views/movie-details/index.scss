@@ -1,0 +1,14 @@
+.movie-details {
+    padding-top: 50px;
+    width: 1500px;
+    margin: 0 auto;
+    min-height: 200px;
+    .details-item {
+        &-title {
+            font-weight: 700;
+            line-height: 1.5;
+            font-size: 18px;
+            margin-right: 18px;
+        }
+    }
+}
