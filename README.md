@@ -30,7 +30,7 @@
 
 In the project directory, you can run:
 
-#### `npm install`
+### `npm install`
 
 ### `npm start`
 
